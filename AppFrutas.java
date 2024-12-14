@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 
 public class AppFrutas {
     public static void main(String[] args) {
-        String localDoArquivo = "C:\\projects\\Facul\\Alest\\ALEST1.2024-2\\atividadepraentregar28-10-24\\src\\frutas.txt";
+        String localDoArquivo = /workspaces/arvorebinariadefrutas/frutas.txt;
 
         ArvoreBinariaDeFrutas abf = new ArvoreBinariaDeFrutas();
 
@@ -33,9 +33,7 @@ public class AppFrutas {
         System.out.println(abf.obterTamanho());
 
     }
-     //e imprimir o conteúdo da árvore usando o caminhamento central com as 
-     // bem como o tamanho e a altura da árvore.
-//A ordem de inclusão na árvore é baseada na leitura do arquivo, linha a linha.
+     
 
 
 }
